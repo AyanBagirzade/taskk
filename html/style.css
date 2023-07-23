@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+#searchInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+.middle{
+  margin-left: 250px;
+}
+
+.exit-button {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: yellow;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.exit-button:hover {
+  background-color: #ffea00;
+}
+
+.form-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 24px;
+  border-bottom: 2px solid #333;
+}
+
+.expense-form {
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+  flex: 0 0 150px;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="text"],
+textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.search-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.search-icon {
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  background-color: #444;
+}
